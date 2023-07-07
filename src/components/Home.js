@@ -11,7 +11,7 @@ function Home(){
   return (
     <div id="home" className='pt-20'>
         <p className=' bg-gray-800 rounded-2xl '>
-        <img src={yellowbg} className='w-full h-full' />
+        <img src={yellowbg} alt="Girl in a jacket" className='w-full h-full' />
         </p>
     
     </div>
