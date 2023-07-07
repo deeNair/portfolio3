@@ -1,10 +1,12 @@
-.skills {
+#skills {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     min-height:20vh;
    /* padding: 2.5rem 2rem 2rem 2rem;*/
+   background-color: black;
+
 }
 
 .skillsHeader {
@@ -28,6 +30,7 @@
     width: 100%;
     margin-top: 2.5rem;
     padding: 0 2rem;
+    
 }
 
 .skill--scroll {
@@ -40,8 +43,8 @@
     /*background: #FAFAFA;*/
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.12);
     border-radius: 10px;
-    width: 160px;
-    height: 160px;
+    width: 150px;
+    height: 150px;
     margin: 1.5rem;
     display: flex;
     flex-direction: column;
@@ -101,8 +104,8 @@
         font-size: 3.2rem;
     }
     .skill--box {
-        width: 150px;
-        height: 150px;
+        width: 100px;
+        height: 100px;
         margin: 1.2rem;
         padding: 2rem 1rem;
     }

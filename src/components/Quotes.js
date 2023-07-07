@@ -35,9 +35,10 @@ const content3= book[randomNum3] ?? [];
    };
 
   return (
-    <div className="container">
+    <div className='bg-gradient-to-b from-black to-amber-700'>
+    <div className="container ">
      
-    <div className='text-4xl font-signature ml-0 px-10 py-10 bg-gradient-to-b from-neutral-200 text-gray-500'>
+    <div className='text-4xl font-signature ml-0 px-10 py-10 bg-gradient-to-b from-neutral-200 text-gray-500 '>
     <Slider {...settings}  >
       <div>
       
@@ -52,6 +53,7 @@ const content3= book[randomNum3] ?? [];
       </Slider>
 </div>
 
+   </div>
 </div>
   )
 }

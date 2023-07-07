@@ -2,7 +2,6 @@ import React from 'react'
 import { skillsData } from '../data/skillsData';
 import Marquee from "react-fast-marquee";
 import { skillsImage } from '../data/skillsImage';
-//import { ThemeContext } from '../pages/ThemeContext';
 import  "../css/skills.css";
 
 const Skills = () => {
@@ -13,12 +12,12 @@ const Skills = () => {
     }
 
     return (
-        <div id="skills" className='skills' style={{backgroundColor: '#303030'}}>
+        <div id="skills" className='h-fit'>
             <div className='skillsHeader' >
                 <h2 style={{color: 'whitesmoke'}}>Skills</h2>
             </div>
             <div className="skillsContainer">
-                <div className='skill--scroll'>
+                <div className='skill--scroll '>
                     <Marquee 
                         gradient={false} 
                         speed={80} 
