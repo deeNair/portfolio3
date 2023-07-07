@@ -35,7 +35,7 @@ code .
 to open the react app http://localhost:3000 to view locally.
 
 Also live on:
-https://deepnair.netlify.app
+
 
 # Development
 
