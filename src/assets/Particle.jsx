@@ -7,7 +7,7 @@ import "../index.css"
 const Particle = () => {
     const init = useCallback(async (engine)=>{
         await loadFull(engine);
-       })
+       },[])
   return (
     <div>
         <Particles id="tsparticles"  options={
