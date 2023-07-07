@@ -1,6 +1,5 @@
 # Myportfolio
-# DEMO-https://deepnair.netlify.app
-
+# DEMO-https://deenair.netlify.app/
 # Table of Contents
 # About The Project
    A React Application created using create-react-app, built using Api's ,tailwind and bootstrap framework.
